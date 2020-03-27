@@ -1,0 +1,7 @@
+.slider {
+	position: relative;
+}
+
+.slider > div {
+	position: absolute;
+}

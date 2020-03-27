@@ -1,0 +1,114 @@
+/*
+  Google fonts
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+*/
+/*
+  Variables
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+em {
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 1.1rem;
+  color: #db3056;
+}
+
+.flex-center, .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grid-center, .section {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  background-color: #efefef;
+  height: 64px;
+  padding: 0 64px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.header__menu ul {
+  display: flex;
+}
+.header__menu li {
+  list-style: none;
+  margin-left: 16px;
+}
+.header__menu li a {
+  color: #212121;
+  text-decoration: none;
+}
+.header__menu li a:hover {
+  text-decoration: underline;
+}
+
+.header__welcome {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/*
+  SECTION DESIGN
+*/
+.section {
+  height: calc(100vh - 64px);
+}
+
+.section__img {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.section__img img {
+  height: 150px;
+}
+
+.section__title {
+  font-size: 24px;
+}
+
+.section__description {
+  font-size: 16px;
+}
+
+.button {
+  height: 32px;
+  width: 300px;
+  border: 0;
+  border-radius: 24px;
+  margin-top: 16px;
+}
+
+/*
+  MEDIA CONFIGURATION
+*/
+@media only screen and (max-width: 768px) {
+  .header__menu {
+    display: none;
+  }
+
+  .header {
+    justify-content: center;
+  }
+
+  .section__content {
+    padding: 0 32px;
+  }
+}
+
+/*# sourceMappingURL=jrpalacio.css.map */
